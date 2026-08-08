@@ -1,0 +1,36 @@
+# Target & Maven Build Directories
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node Modules & Dependencies
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Production Build Directories
+dist/
+**/dist/
+dist-ssr/
+
+# Logs & Temp files
+*.log
+logs/
+*.tmp
+
+# Environment Files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
