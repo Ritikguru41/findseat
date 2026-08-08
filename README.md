@@ -9,12 +9,6 @@
 
 ---
 
-## 🚀 Repository Link
-
-Official Repository: [https://github.com/Ritikguru41/findseat](https://github.com/Ritikguru41/findseat)
-
----
-
 ## ✨ Key Features
 
 ### 👤 User Capabilities
@@ -125,7 +119,7 @@ spring.datasource.username=root
 spring.datasource.password=YOUR_MYSQL_PASSWORD
 
 app.frontend.url=http://localhost:5173
-jwt.secret=findseat_super_secret_jwt_key_2024
+jwt.secret=findseat
 razorpay.key.id=YOUR_RAZORPAY_KEY_ID
 razorpay.key.secret=YOUR_RAZORPAY_KEY_SECRET
 ```
@@ -149,8 +143,6 @@ npm install
 ```
 3. Verify environment variables in `.env`:
 ```env
-VITE_RAZORPAY_KEY_ID=rzp_test_Sm06AUkqqNZFl1
-VITE_API_URL=http://localhost:8080/api
 ```
 4. Start the Vite development server:
 ```bash
@@ -179,7 +171,4 @@ The application will be accessible at `http://localhost:5173`.
 
 ---
 
-## 📄 License & Credits
 
-Developed with ❤️ for movie enthusiasts.  
-Repository: [https://github.com/Ritikguru41/findseat](https://github.com/Ritikguru41/findseat)
